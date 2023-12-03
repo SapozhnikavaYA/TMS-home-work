@@ -1,7 +1,7 @@
 body {
   margin: 0;
 }
-.header {
+.section {
   height: 1024px;
   width: 100%;
   background-image: linear-gradient(
@@ -19,7 +19,7 @@ body {
   width: 1170px;
   margin: 0 auto;
 }
-.navigation {
+.header {
   width: 100%;
   padding-top: 42px;
   display: flex;
@@ -120,4 +120,21 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.background {
+  background-color: #95e1d3;
+}
+.box-buttom {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.box-buttom-navigation {
+  width: 234px;
+  height: 250px;
+  border-right: 1px solid #fff;
+}
+.box-buttom-navigation:first-child {
+  border-left: 1px solid #fff;
 }
